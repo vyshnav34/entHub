@@ -13,7 +13,17 @@
 .poster{
     margin-right: 10px;
     max-height: 250px; 
-}
+    
+} 
+
 .posters::-webkit-scrollbar{
     display: none;
+}
+.smallPoster{
+    max-height: 150px;
+    margin-right: 10px;
+}
+.title_1{
+    font-size: 1.4rem;
+    font-weight: 800;
 }
