@@ -58,7 +58,7 @@ function ItemList(props) {
         ))}
         
       </div>
-      { urlId &&  <Youtube opts={opts} videoId={urlId.key}  /> }
+      { urlId.key &&  <Youtube opts={opts} videoId={urlId.key}  /> }
     </div>
   );
 }
